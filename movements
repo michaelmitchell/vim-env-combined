@@ -1,0 +1,42 @@
+# Movements
+
+J - join lines
+gJ - join lines without space
+
+{ - back paragraph
+} - forward paragraph
+( - back sentence
+) - forward sentence
+
+m{a-z} - create mark
+'{a-z} - go to mark
+
+t<char> - search before forward
+T<char> - search before backward
+; - prev
+, - next
+
+ctrl+u - scroll up half up
+ctrl+y - scroll up one line up
+ctrl+b - scroll up one screen
+ctrl+d - scroll down half screen
+ctrl+e - scroll down one line
+ctrl+f - scroll down one screen
+
+ctrl+o - prev location
+
+diw - delete word under cursor (excl whitespace)
+daw - delete word under cursor (incl whitespace)
+
+ctrl+a - incr
+ctrl-x - decr
+
+cw - change word
+C - c$ - change to end of line
+s - cl - change one char
+S - cc - change line
+
+r - replace char
+R - replace mode
+
+~ - change case
